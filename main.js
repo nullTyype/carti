@@ -1,1 +1,3 @@
-onclick("baby voice")
+function babyvoice(){
+    audio.play()
+}
