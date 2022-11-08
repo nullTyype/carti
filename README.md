@@ -1,2 +1,0 @@
-# carti
-em desenvolvimento
