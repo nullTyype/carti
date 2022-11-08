@@ -1,2 +1,2 @@
 # carti
-em desenvolvimento
+bro think he Carti 
