@@ -1,3 +1,0 @@
-function babyvoice(){
-    audio.play()
-}
