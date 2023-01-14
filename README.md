@@ -1,2 +1,2 @@
 # carti
-completo
+em desenvolvimento
