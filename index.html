@@ -9,21 +9,32 @@
         * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
         }
-        #carti{ 
-            margin-top: 6%;
-            margin-bottom: 1%;
+        .wrapper { 
+            width: 100%;
+            background: #e9ecef;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 20vh 60vh 20vh;
+            grid-template-areas:    "."
+                                    "a"
+                                    ".";
+            justify-items: center;
+            align-items: center;
+         }
+         #carti {
+            grid-area: a;
             aspect-ratio: 12/5;
             width: 100%;
-            height: auto;
-         }
+        }
     </style>
 </head>
 
-<body onclick="music()" oncontextmenu="return false">
-    <div>
+<body>
+    <div class="wrapper">
         <img src="assets/carti.gif" id="carti">
-    </div>
+    </div> 
 
     <script src="main.js"></script>
 </body>
